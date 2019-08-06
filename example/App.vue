@@ -1,23 +1,3 @@
-# vue-mg-date-time-selector
-
-## Installation
-
-```
-npm i vue-mg-date-time-selector
-```
-
-## Usage
-
-app.js
-
-```javascript
-import DateTimeSelector from 'vue-mg-date-time-selector'
-Vue.component('DateTimeSelector', DateTimeSelector)
-```
-
-Example:
-
-```html
 <template>
   <section class="container">
     <date-time-selector v-model="date" :title="title" :min-hour="minHour" :max-hour="maxHour"/>
@@ -47,8 +27,3 @@ export default {
   },  
 }
 </script>
-```
-
-## License
-
-MIT
