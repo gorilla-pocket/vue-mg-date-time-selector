@@ -173,7 +173,7 @@ export default {
     methods: {
         convertDate: function () {
             let ret = ''
-            if (this.selected_year && this.selected_month && this.selected_day && this.selected_hour) {
+            if (this.selected_year && this.selected_month && this.selected_day) {
                 ret = moment(this.selected_year+'-'+('00' + this.selected_month).slice(-2)+'-'+('00' + this.selected_day).slice(-2)+' '+('00' + this.selected_hour).slice(-2)+':'+('00' + this.selected_minute).slice(-2)).format('YYYY-MM-DD HH:mm')
             }
             return ret
